@@ -1,0 +1,28 @@
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  #invoice-preview {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  table, th, td {
+    border: 1px solid black !important;
+    border-collapse: collapse !important;
+  }
+
+  th, td {
+    padding: 6px !important;
+  }
+
+  h1, h2 {
+    color: black !important;
+  }
+}
