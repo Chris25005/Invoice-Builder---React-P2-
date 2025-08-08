@@ -144,7 +144,7 @@ const InvoiceForm = () => {
         + Add Item
       </button>
 
-      <div id="invoice-preview" className="border-t pt-4 mt-6 text-sm">
+      <div id="invoice-preview" className="bg-white p-8 print:p-12 print:bg-white">
         <h2 className="text-xl font-semibold mb-2">Invoice Summary</h2>
         <p>
           <strong>Client Name:</strong> {client.name}
